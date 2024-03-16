@@ -103,8 +103,13 @@ ApplicationWindow {
         try {
             locationText.text = weatherJsonObject.name;
             weatherDescriptionText.text = weatherJsonObject.weather[0].main;
-            temperatureText.text = weatherJsonObject.main.temp + " °C";
-            windSpeedText.text = "Wind: " + weatherJsonObject.wind.speed + " m/s";
+                       // Round temperature to nearest integer
+            var temperature = Math.round(weatherJsonObject.main.temp);
+            temperatureText.text = temperature + " °C";
+
+            // Round wind speed to nearest integer
+            var windSpeed = Math.round(weatherJsonObject.wind.speed);
+            windSpeedText.text = "Wind: " + windSpeed + " m/s";
             weatherIcon.source = "http://openweathermap.org/img/wn/" + weatherJsonObject.weather[0].icon + ".png";
 
             // Adjust the background gradient based on the main weather condition

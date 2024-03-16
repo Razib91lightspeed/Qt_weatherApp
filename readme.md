@@ -57,6 +57,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Weather data provided by OpenWeatherMap.
 - 1
-![All Jobs Image](images/Guang.png)
+![All Jobs Image](WeatherApp/images/WN.png)
 - 2
-![All Jobs Image](images/Temp.png)
+![All Jobs Image](WeatherApp/images/WS.png)
+
+# Author
+- Razib Hasan
