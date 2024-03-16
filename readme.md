@@ -56,9 +56,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Weather data provided by OpenWeatherMap.
-- 1
+
 ![All Jobs Image](WeatherApp/images/WN.png)
-- 2
+
 ![All Jobs Image](WeatherApp/images/WS.png)
 
 # Author
